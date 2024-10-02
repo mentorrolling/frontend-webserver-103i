@@ -19,6 +19,8 @@ const LoginScreen = () => {
     auth(formulario.email, formulario.password).then((response) => {
       if (response?.token) {
         localStorage.setItem("token", JSON.stringify(response.token));
+        localStorage.setItem("uid", JSON.stringify(response.uid));
+
         navigate("/");
       } else {
         setMessage(response);

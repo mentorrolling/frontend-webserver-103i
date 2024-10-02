@@ -23,7 +23,7 @@ const ProductoScreen = () => {
                 <div className="col-md-4">
                   <img
                     src={producto.img}
-                    className="img-fluid rounded-start"
+                    className="img-fluid rounded-start h-100"
                     alt={producto.nombre}
                   />
                 </div>
