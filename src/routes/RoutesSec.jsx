@@ -1,6 +1,4 @@
-import { useState, useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
-import { getUsuario } from "../helpers/apiUsuarios";
 import HomeScreen from "../views/HomeScreen";
 import NotFoundScreen from "../views/NotFoundScreen";
 import ProductoScreen from "../views/ProductoScreen";
